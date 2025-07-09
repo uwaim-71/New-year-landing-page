@@ -1,0 +1,111 @@
+
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* .first{
+    display: flex;
+} */
+
+main section{
+    margin-bottom: 120px;
+}
+
+.first-img{
+    width: 1320px;
+    height: 600px;
+    margin: 50px 275px;
+}
+.overlay{
+    position: absolute;
+    transform: translate(630px,-450px);
+    text-align: center;
+}
+
+.first-img-head{
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.first-img-description{
+    font-size: 72px;
+    color: #ffffff;
+    width: 630px;
+}
+
+.first-img-head p,
+.first-img-description p {
+  margin: 0;
+  padding: 0;
+}
+
+/* 2nd image */
+
+.second-info{
+    text-align: center;
+}
+
+.second-head p{
+    margin: 0;
+    padding: 0;
+}
+
+.p1{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.p2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.p3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+}
+.second-img{
+    margin-top: 48px;
+}
+
+/* third */
+.third-img-1{
+    margin: 50px 275px;
+}
+.third-img-2{
+    position: absolute;
+    transform: translate(1130px,-580px);
+    
+}
+.third-info-title{
+    font-size: 64px;
+    font-weight: bold;
+    width: 642px;
+    color: #FFFFFF;
+}
+.third-info-description{
+    font-size: 18px;
+    font-weight: 400;
+    width: 697px;
+    color: #FFFFFF;
+}
+button{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    background-color:transparent;
+}
+.third-info-title, .third-info-description{
+    padding: 0;
+    margin-bottom: 24px;
+}
+.third-info{
+    position: absolute;
+    transform: translate(380px,-600px);
+}
